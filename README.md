@@ -9,11 +9,18 @@ For a detailed write-up on the methods used and some benchmarks, see [this](http
 
 The original source code was written by Malte Skarupke.
 
+## Installation
+
+```r
+# install.packages("devtools")
+devtools::install_github("ChrisMuir/r-fhm")
+```
+
 ## Using flat_hash_map in an R package
 
 To use C++ code from flat_hash_map:
 
-1. In the DESCRIPTION file, add `LinkingTo: fhm`.
+1. In the `DESCRIPTION` file, add `LinkingTo: fhm`.
 2. At the top of a C++ file, add: `#include <flat_hash_map.h>`.
 3. Within that C++ file, use
 ```c++
@@ -22,13 +29,6 @@ ska::flat_hash_map<int, std::string> my_map;
 in place of
 ```c++
 std::unordered_map<int, std::string> my_map;
-```
-
-## Installation
-
-```r
-# install.packages("devtools")
-devtools::install_github("ChrisMuir/r-fhm")
 ```
 
 ## License
