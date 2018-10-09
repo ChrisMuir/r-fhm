@@ -13,6 +13,8 @@ provided in a pull request (seen [here](https://github.com/skarupke/flat_hash_ma
 by [Luiz Silveira](https://github.com/zertyz).
 
 
+Also, check out [r-sparsepp](https://github.com/dselivanov/r-sparsepp) by [Dmitriy Selivanov](https://github.com/dselivanov). This is a very similar package that provides R users access to the [sparsepp](https://github.com/greg7mdp/sparsepp) hash map.
+
 ## Installation
 
 ```r
@@ -20,7 +22,7 @@ by [Luiz Silveira](https://github.com/zertyz).
 devtools::install_github("ChrisMuir/r-fhm")
 ```
 
-## Using flat_hash_map in an R package
+## Using `flat_hash_map` in an R package
 
 To use C++ code from flat_hash_map:
 
