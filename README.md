@@ -1,13 +1,17 @@
 # r-fhm
 
-R package interface to the `flat_hash_map` C++ header files. 
-[flat_hash_map](https://github.com/skarupke/flat_hash_map) provides a drop-in replacement
+R package interface to the [flat_hash_map](https://github.com/skarupke/flat_hash_map) 
+C++ header files, written by [Malte Skarupke](https://github.com/skarupke).
+`flat_hash_map` provides a drop-in replacement
 for `std::unordered_map` and `std::unordered_set`. The hash map provided by `flat_hash_map` 
 considerably outperforms `std::unordered_map` in a number of different benchmarks.
 
 For a detailed write-up on the methods used and some benchmarks, see [this](https://probablydance.com/2017/02/26/i-wrote-the-fastest-hashtable/) blogpost.
 
-The original source code was written by Malte Skarupke.
+The code in file `inst/include/flat_hash_map.hpp` of this package incorporates edits 
+provided in a pull request (seen [here](https://github.com/skarupke/flat_hash_map/pull/18)) 
+by [Luiz Silveira](https://github.com/zertyz).
+
 
 ## Installation
 

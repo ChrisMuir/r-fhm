@@ -35,4 +35,9 @@ Authors:
   \item Malte Skarupke [copyright holder]
 }
 
+Other contributors:
+\itemize{
+  \item Luiz Silveira [contributor]
+}
+
 }

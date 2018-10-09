@@ -1,10 +1,11 @@
 Package: fhm
 Type: Package
 Title: 'flat_hash_map' C++ Header Files
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
   person("Malte", "Skarupke", role = c("aut", "cph")),
-  person("Chris", "Muir", role = "cre", email = "chrismuirrva@gmail.com")
+  person("Chris", "Muir", role = "cre", email = "chrismuirrva@gmail.com"), 
+  person("Luiz", "Silveira", role = "ctb")
   )
 Maintainer: Chris Muir <chrismuirrva@gmail.com>
 Description: Interface to 'flat_hash_map' C++ header files. 'flat_hash_map' is a 
@@ -14,4 +15,4 @@ BugReports: https://github.com/ChrisMuir/r-fhm/issues
 License: Boost Software License, Version 1.0 <http://www.boost.org/LICENSE_1_0.txt> + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1.9000
+RoxygenNote: 6.1.0
